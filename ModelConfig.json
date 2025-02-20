@@ -1,0 +1,40 @@
+{
+  "models": [
+    {
+      "name": "gpt-4",
+      "display_name": "GPT-4",
+      "api_key": "YOUR-OPENAI-KEY",
+      "base_url": "BASE_URL",
+      "proxy": ""
+    },
+    {
+      "name": "gpt-3.5-turbo",
+      "display_name": "GPT-3.5-Turbo",
+      "api_key": "YOUR_API_KEY",
+      "base_url": "BASE_URL",
+      "proxy": ""
+    },
+    {
+      "name": "qwen-coder-turbo-latest",
+      "display_name": "QWen Coder Turbo Latest",
+      "api_key": "YOUR_API_KEY",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "proxy": ""
+    },
+    {
+      "name": "gemini-2.0-flash",
+      "display_name": "Gemini 2.0 Flash",
+      "api_key": "YOUR_API_KEY",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "proxy": "http://127.0.0.1:10809"
+    },
+	{
+      "name": "grok-2-latest",
+      "display_name": "Grok 2 latest",
+      "api_key": "YOUR_API_KEY",
+      "base_url": "https://api.x.ai/v1",
+      "proxy": "http://127.0.0.1:10809"
+	}
+  ],
+  "default_model": "gpt-3.5-turbo"
+}
