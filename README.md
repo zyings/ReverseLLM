@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 2. 配置模型信息:
 
-- 修改`ModelConfig.json`文件，填入你的API密钥和相关配置
+- 修改`ModelConfig.json`文件，填入你的API密钥和相关配置，需要配置default_model指定一个默认的模型
 
 ```json
 {
